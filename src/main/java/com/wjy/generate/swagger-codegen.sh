@@ -1,0 +1,11 @@
+java -jar swagger-codegen-cli-3.0.34.jar generate \
+-i D:\\xxx.json \
+--api-package com.wjy.api \
+--model-package com.wjy.model \
+--invoker-package com.wjy.invoker \
+--group-id com.wjy \
+--artifact-id demo \
+--artifact-version 0.0.1-SNAPSHOT \
+-l java \
+--library resttemplate \
+-o D:\\demo
